@@ -11,6 +11,9 @@
 		9948005126B0316F0003208C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948005026B0316F0003208C /* ContentView.swift */; };
 		9948005326B031710003208C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9948005226B031710003208C /* Assets.xcassets */; };
 		9948005626B031710003208C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9948005526B031710003208C /* Preview Assets.xcassets */; };
+		9948005E26B034030003208C /* MyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948005D26B034030003208C /* MyVStack.swift */; };
+		9948006026B0345B0003208C /* MyHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948005F26B0345B0003208C /* MyHStack.swift */; };
+		9948006226B035F40003208C /* MyZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9948006126B035F40003208C /* MyZStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		9948005226B031710003208C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9948005526B031710003208C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9948005726B031710003208C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9948005D26B034030003208C /* MyVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStack.swift; sourceTree = "<group>"; };
+		9948005F26B0345B0003208C /* MyHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHStack.swift; sourceTree = "<group>"; };
+		9948006126B035F40003208C /* MyZStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyZStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				9948005226B031710003208C /* Assets.xcassets */,
 				9948005726B031710003208C /* Info.plist */,
 				9948005426B031710003208C /* Preview Content */,
+				9948005D26B034030003208C /* MyVStack.swift */,
+				9948005F26B0345B0003208C /* MyHStack.swift */,
+				9948006126B035F40003208C /* MyZStack.swift */,
 			);
 			path = SwiftUI_Stack_Tutorial;
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9948006026B0345B0003208C /* MyHStack.swift in Sources */,
 				9948005126B0316F0003208C /* ContentView.swift in Sources */,
 				9948004F26B0316F0003208C /* SwiftUI_Stack_TutorialApp.swift in Sources */,
+				9948006226B035F40003208C /* MyZStack.swift in Sources */,
+				9948005E26B034030003208C /* MyVStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
